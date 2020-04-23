@@ -1,0 +1,31 @@
+.Products {
+    margin: 20px;
+    background-color: grey;
+    border-radius: 25px;
+    margin: 20px;
+    padding: 20px;
+    width: 270px;
+    float: left;
+  }
+  
+  .Products > img {
+   margin-left: auto;
+   margin-right: auto;
+  }
+  
+  h2{
+    text-align: center;
+    color:whitesmoke;
+  }
+  
+  .top{
+    background-color: black;
+  }
+  
+  .Products > img:hover{
+    a:hover {
+      background-color: yellow;
+    }
+  }
+
+  

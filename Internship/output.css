@@ -1,0 +1,57 @@
+.Products {
+  margin: 20px;
+  background-color: grey;
+  border-radius: 25px;
+  margin: 20px;
+  padding: 20px;
+  width: 270px;
+  float: left;
+}
+
+.Products > img {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+h2 {
+  text-align: center;
+  color: whitesmoke;
+}
+
+.top {
+  background-color: black;
+}
+
+.Products > img:hover a:hover {
+  background-color: yellow;
+}
+
+
+button{
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.Products {
+  background-position: center;
+  transition: background 0.8s;
+}
+.Products:hover {
+  background: #47a7f5 radial-gradient(circle, transparent 1%, #47a7f5 1%) center/15000%;
+}
+.Products:active {
+  background-color: #6eb9f7;
+  background-size: 100%;
+  transition: background 0s;
+}
+
+.Products > h2{
+  color:green;
+}
+
+.Products > h3{
+  text-align: center;
+  font-weight: bold;
+}
